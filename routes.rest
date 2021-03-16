@@ -2,9 +2,13 @@ POST http://localhost:3000/api
 Content-Type: application/json
 
 {
-
-
-}
+    "type": "resistance",
+    "name": "Bicep Curl",
+    "duration": 20,
+    "weight": 100,
+    "reps": 10,
+    "sets": 4
+ }
 
 ###
 GET http://localhost:3000/api
